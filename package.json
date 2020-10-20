@@ -1,7 +1,7 @@
 {
-  "name": "start",
+  "name": "startup-pack",
   "version": "1.0.0",
-  "description": "start uikit practice series",
+  "description": "start-pack uikit template",
   "main": "index.js",
   "author": "TALIB",
   "license": "MIT",
