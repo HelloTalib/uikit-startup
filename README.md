@@ -1,4 +1,4 @@
-# Startup-Pack uikit template
+# Garden uikit template
 
 ### Version
 

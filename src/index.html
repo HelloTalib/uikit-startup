@@ -1,16 +1,756 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Startup-Pack</title>
-    <link href="assets/css/style.min.css" rel="stylesheet" />
-  </head>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Garden | about</title>
+	<link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="bdt-page">
+		<!-- homepage backgorund  start-->
+		<section class="uk-position-relative" id="background">
 
-  <body>
-    <h1 class="uk-h1 uk-text-primary">Hello World</h1>
-    <script src="assets/js/uikit.min.js"></script>
-    <script src="assets/js/uikit-icons.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
-  </body>
+			<!-- desktop header  start-->
+			<div class="bdt-header bdt-header-transparent uk-visible@m" uk-header="">
+				<div class="uk-sticky uk-light" uk-sticky="cls-inactive: uk-light; cls-active: uk-background-default uk-box-shadow-medium uk-dark; top: 100vh; animation: uk-animation-slide-top">
+					<div class="uk-navbar-container uk-navbar-transparent">
+						<div class="uk-container uk-container-medium">
+							<nav uk-navbar="">
+								<div class="uk-navbar-left">
+									<a class="uk-navbar-item uk-logo" href="index.html"><img alt="logo" src="./assets/img/keyfai.svg"></a>
+								</div>
+								<div class="uk-navbar-center">
+									<ul class="uk-navbar-nav">
+										<li class="uk-active">
+											<a href="index.html">Home</a>
+										</li>
+										<li>
+											<a href="about.html">About</a>
+										</li>
+										<li>
+											<a href="supports.html">Supports</a>
+										</li>
+										<li>
+											<a href="contact.html">Contact</a>
+										</li>
+									</ul>
+								</div>
+								<div class="uk-navbar-right">
+									<div class="uk-navbar-item">
+										<div>
+											<a class="uk-button uk-button-default" href="#">sign up</a>
+										</div>
+									</div>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- desktop header end -->
+
+			<!-- mobile menu start  -->
+			<div class="bdt-header-mobile uk-hidden@m bdt-header-transparent bdt-header-overlay">
+				<div>
+					<nav class="uk-navbar-container" uk-navbar="">
+						<div class="uk-navbar-left">
+							<div class="uk-navbar-item uk-logo"><img alt="logo" src="./assets/img/keyfai.svg"></div>
+						</div>
+						<div class="uk-navbar-right">
+							<a class="uk-navbar-toggle" href="#mobile-menu" uk-toggle=""><span class="uk-icon uk-navbar-toggle-icon" uk-navbar-toggle-icon></span></a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- mobile menu end  -->
+
+			<!-- slider start -->
+			<div class="uk-section uk-section-transparent uk-padding-remove-vertical" id="slider">
+				<div class="uk-container uk-container-medium">
+					<div class="bdt-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid="">
+						<div class="uk-width-1-1@m">
+							<div uk-slideshow="autoplay: 1">
+								<div class="uk-position-relative">
+									<ul class="uk-slideshow-items" style="height: 100vh;">
+										<li>
+											<div class="uk-position-cover uk-flex uk-flex-middle">
+												<div class="uk-panel uk-width-2xlarge@m uk-margin-auto uk-text-center uk-margin-remove-first-child uk-light">
+													<h3 class=" bdt-slider-title-before uk-h4 uk-margin-remove-bottom">divi is the future, Everything in a box</h3>
+													<h2 class="bdt-slider-title uk-h1 uk-margin-remove-bottom">The easiest way to make your website!</h2>
+													<div class="bdt-slider-content uk-margin-top uk-margin-remove-bottom">
+														Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel numquam deserunt id facilis earum. Ea nihil ab quod sint quas, repudiandae reiciendis dicta dignissimos, aliquid odit eveniet repellendus eligendi illo?
+													</div>
+													<div class="uk-margin-large-top">
+														<a class="bdt-slider-button uk-button uk-button-primary" href="#">Let's Talk</a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="uk-position-cover uk-flex uk-flex-middle">
+												<div class="uk-panel uk-width-2xlarge@m uk-margin-auto uk-text-center uk-margin-remove-first-child uk-light">
+													<h3 class=" bdt-slider-title-before uk-h3 uk-margin-remove-bottom">divi is the future, Everything in a box</h3>
+													<h2 class="bdt-slider-title uk-h1 uk-margin-remove-bottom">The easiest way to make your website!</h2>
+													<div class="bdt-slider-content uk-margin-top uk-margin-remove-bottom">
+														Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel numquam deserunt id facilis earum. Ea nihil ab quod sint quas, repudiandae reiciendis dicta dignissimos, aliquid odit eveniet repellendus eligendi illo?
+													</div>
+													<div class="uk-margin-large-top">
+														<a class="bdt-slider-button uk-button uk-button-primary" href="#">Let's Talk</a>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="uk-margin-small">
+										<a class="uk-position-center-left-out uk-position-small uk-icon uk-slidenav" href="#" uk-slidenav-previous="" uk-slideshow-item="previous"></a> <a class="uk-position-center-right-out uk-position-small uk-icon uk-slidenav" href="#" uk-slidenav-next="" uk-slideshow-item="next"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- slider end -->
+
+			<!-- slider end -->
+			<div class="uk-section uk-section-transparent uk-padding-remove" id="services-card" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200">
+				<div class="uk-container uk-container-medium">
+					<div class="uk-tile uk-tile-default uk-tile-large">
+						<div class="uk-container uk-container-xsmall uk-margin">
+							<div class="bdt-grid-expand uk-width-1-1@m" uk-grid="">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-panel uk-margin-remove-first-child">
+										<h2 class="bdt-section-heading uk-margin-top uk-margin-remove-bottom uk-width-2xlarge@m uk-margin-auto uk-text-center uk-text-uppercase" uk-scrollspy-class="uk-animation-slide-bottom-medium">Services we offer</h2>
+									</div>
+								</div>
+							</div>
+							<div class="bdt-grid-expand uk-grid-large uk-child-width-1-1 uk-child-width-1-2@m uk-flex uk-flex-middle" uk-grid="">
+								<div>
+									<div class="bdt-card-wrapper bdt-card-1" uk-scrollspy-class="">
+										<div class="bdt-card uk-card uk-card-body uk-card-default uk-card-small">
+											<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle" uk-grid="">
+												<div class="uk-width-auto">
+													<div class="uk-margin"><img alt="" src="assets/img/icon.png"></div>
+												</div>
+												<div class="bdt-card-title uk-width-expand">
+													Community Foram
+												</div>
+											</div>
+										</div>
+										<div class="card-icon">
+											<a href="#" uk-icon="icon:chevron-right"></a>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="bdt-card-wrapper bdt-card-2" uk-scrollspy-class="">
+										<div class="bdt-card uk-card uk-card-body uk-card-default uk-card-small">
+											<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle" uk-grid="">
+												<div class="uk-width-auto">
+													<div class="uk-margin"><img alt="" src="assets/img/icon.png"></div>
+												</div>
+												<div class="bdt-card-title uk-width-expand">
+													Community Foram
+												</div>
+											</div>
+										</div>
+										<div class="card-icon">
+											<a href="#" uk-icon="icon:chevron-right"></a>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="bdt-card-wrapper bdt-card-3" uk-scrollspy-class="">
+										<div class="bdt-card uk-card uk-card-body uk-card-default uk-card-small">
+											<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle" uk-grid="">
+												<div class="uk-width-auto">
+													<div class="uk-margin"><img alt="" src="assets/img/icon.png"></div>
+												</div>
+												<div class="bdt-card-title uk-width-expand">
+													Community Foram
+												</div>
+											</div>
+										</div>
+										<div class="card-icon">
+											<a href="#" uk-icon="icon:chevron-right"></a>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="bdt-card-wrapper bdt-card-4" uk-scrollspy-class="">
+										<div class="bdt-card uk-card uk-card-body uk-card-default uk-card-small">
+											<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle" uk-grid="">
+												<div class="uk-width-auto">
+													<div class="uk-margin"><img alt="" src="assets/img/icon.png"></div>
+												</div>
+												<div class="bdt-card-title uk-width-expand">
+													Community Foram
+												</div>
+											</div>
+										</div>
+										<div class="card-icon">
+											<a href="#" uk-icon="icon:chevron-right"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- services-card-end -->
+			<div class="uk-section uk-section-transparent uk-padding-remove" id="counter" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200;">
+				<div class="uk-container uk-container-medium">
+					<div class="uk-tile uk-tile-default uk-tile-medium uk-padding-remove-top">
+						<div class="bdt-grid-expand uk-width-1-1@m" uk-grid="">
+							<div class="uk-panel uk-width-1-1">
+								<div class="uk-panel uk-margin-remove-first-child">
+									<div class="bdt-counter-heading-before uk-margin-top uk-margin-remove-bottom uk-width-2xlarge@m uk-margin-auto uk-text-center uk-text-primary" uk-scrollspy-class="">
+										Why theme
+									</div>
+									<h2 class="bdt-counter-heading uk-margin uk-width-2xlarge@m uk-margin-auto uk-text-center" uk-scrollspy-class="">Any Website Creator</h2>
+								</div>
+							</div>
+						</div>
+						<div class="bdt-grid-expand uk-margin-large-top uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid="">
+							<div class="uk-grid-item-match uk-text-center" uk-scrollspy-class="">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-h1 uk-margin-auto uk-width-2xlarge@m uk-text-center uk-text-primary">
+										<span class="bdt-counter">190</span>+
+									</div>
+									<div class="uk-margin-top uk-margin-remove-bottom">
+										<div class="bdt-counter-title uk-text-meta uk-text-uppercase">
+											Widgets
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-grid-item-match uk-text-center" uk-scrollspy-class="">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-h1 uk-margin-auto uk-width-2xlarge@m uk-text-center uk-text-primary">
+										<span class="bdt-counter">150</span>+
+									</div>
+									<div class="uk-margin-top uk-margin-remove-bottom">
+										<div class="bdt-counter-title uk-text-meta uk-text-uppercase">
+											Ready Pages
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-grid-item-match uk-text-center" uk-scrollspy-class="">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-h1 uk-margin-auto uk-width-2xlarge@m uk-text-center uk-text-primary">
+										<span class="bdt-counter">1500</span>+
+									</div>
+									<div class="uk-margin-top uk-margin-remove-bottom">
+										<div class="bdt-counter-title uk-text-meta uk-text-uppercase">
+											Ready Blocks
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-grid-item-match uk-text-center" uk-scrollspy-class="">
+								<div class="uk-panel uk-width-1-1">
+									<div class="uk-h1 uk-margin-auto uk-width-2xlarge@m uk-text-center uk-text-primary">
+										<span class="bdt-counter">200</span>+
+									</div>
+									<div class="uk-margin-top uk-margin-remove-bottom">
+										<div class="bdt-counter-title uk-text-meta uk-text-uppercase">
+											Header &amp; footer
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- homepage background end  -->
+
+		<!-- featured video start -->
+		<section class="uk-section uk-section-default uk-section-large" id="featured-video" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:false;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-grid-collapse uk-child-width-1-2@m uk-margin-small uk-flex uk-flex-bottom" uk-grid="">
+					<div uk-scrollspy-class="">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-tile-primary">
+								<a class="bdt-featured-video-img uk-tile uk-width-1-1 uk-tile-large uk-background-norepeat uk-background-cover uk-background-center-center" data-src="./assets/img/video-section.jpg" href="#video-play-button" uk-img="" uk-toggle=""></a>
+							</div>
+						</div>
+					</div>
+					<div uk-scrollspy-class="uk-animation-slide-right-medium">
+						<div class="uk-card uk-card-body uk-card-default">
+							<h3 class="bdt-heading-title-before uk-h4 uk-margin-top uk-margin-remove-bottom uk-text-primary">Why Theme</h3>
+							<h3 class="bdt-heading-title uk-h3 uk-margin-top uk-margin-remove-bottom"><a class="uk-link-heading" href="#">Let Your Dreams Take a Flight</a></h3>
+							<div class="bdt-content-meta uk-text-meta uk-margin-top uk-margin-remove-bottom">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolore fuga ipsam necessitatibus aut consequatur dolorem. Quam, dignissimos placeat assumenda inventore illo accusantium in voluptates soluta officiis, ipsum veniam voluptate!
+							</div>
+							<div class="uk-margin-large-top">
+								<a class="bdt-featured-button uk-button uk-button-primary" href="#">View More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- featurd video end -->
+
+		<!-- portfolio section start -->
+		<section class="uk-section uk-section-default uk-section-large uk-padding-remove-top" id="portfolio" uk-scrollspy="target:[uk-scrollspy-class], .js-filter > li > a; cls:uk-animation-slide-bottom-medium; delay:180;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-width-1-1@m uk-grid uk-grid-stack" uk-grid="">
+					<div class="uk-panel uk-width-1-1">
+						<div class="bdt-heading-title uk-heading-small uk-width-2xlarge@m uk-margin-auto uk-text-center" uk-scrollspy-class="uk-animation-slide-bottom-medium">
+							Our Portfolio
+						</div>
+						<div class="uk-margin-top uk-margin-remove-bottom">
+							<div class="uk-width-2xlarge@m uk-margin-auto uk-text-center" uk-scrollspy-class="uk-animation-slide-bottom-medium">
+								<p class="bdt-heading-content">We believe our work speaks for itself. Browse our most recent projects below<br class="uk-visible@m">
+								and enjoy our <b>handmade work</b> with love for every detail.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-section uk-section-default uk-padding-remove-bottom" uk-filter="target:.js-filter">
+					<ul class="uk-subnav uk-subnav-pill uk-flex uk-flex-center uk-margin" uk-scrollspy-class="uk-animation-slide-bottom-medium">
+						<li class="uk-active" uk-filter-control="">
+							<a href="#">All</a>
+						</li>
+						<li class="" uk-filter-control=".tag-tree">
+							<a href="#">Tree</a>
+						</li>
+						<li class="" uk-filter-control=".tag-flower">
+							<a href="#">Flower</a>
+						</li>
+						<li class="" uk-filter-control=".tag-garden">
+							<a href="#">Garden</a>
+						</li>
+					</ul>
+					<div class="uk-section uk-section-small">
+						<ul class="js-filter uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center uk-grid" uk-grid="">
+							<li class="tag-tree">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/01.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Tablet Design</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Tree
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-flower">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/02.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Self-Belief</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Flower
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-garden">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/03.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Audio-Technical</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Garden
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-tree">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/04.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Squeare</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Tree
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-flower uk-grid-margin">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/05.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Harly-Davidson</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Flower
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-tree uk-grid-margin">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/06.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Tablet Design</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Tree
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-flower uk-grid-margin">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/07.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">A Good Friend</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Flower
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li class="tag-garden uk-grid-margin">
+								<a class="uk-panel uk-positiion-relative uk-inline-clip uk-transition-toggle uk-display-block uk-animation-slide-bottom-medium" href="#">
+								<div class="uk-link-toggle">
+									<img alt="" class="uk-transition-scale-up uk-transition-opaque" src="assets/img/portfolio/06.jpg">
+									<div class="uk-overlay-primary uk-position-cover uk-transition-fade"></div>
+									<div class="uk-position-center">
+										<h3 class="bdt-hover-title uk-transition-scale-up uk-margin-remove-bottom uk-margin-top uk-light">Tablet Design</h3>
+										<div class="bdt-hover-tag uk-margin-remove-bottom uk-text-primary uk-text-uppercase uk-transition-scale-up">
+											Garden
+										</div>
+									</div>
+								</div></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- portfolio section end  -->
+
+		<!-- client testimonial section start -->
+		<section class="uk-section uk-section-default uk-section-large" id="client-testimonial" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:false;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-grid-collapse uk-child-width-1-2@m uk-margin-small uk-flex uk-flex-bottom" uk-grid="">
+					<div uk-scrollspy-class="">
+						<div class="bdt-grid-expand uk-child-width-1-1" uk-grid="">
+							<div class="uk-panel uk-width-1-1 uk-margin-large-bottom">
+								<h2 class="bdt-heading-title uk-h1 uk-margin-top uk-margin-remove-bottom uk-margin-remove-first-child">Client Testimonial</h2>
+								<div class="bdt-heading-content uk-text-meta uk-margin-top uk-margin-remove-bottom">
+									We pride ourselves on providing the most
+								</div>
+							</div>
+						</div>
+						<div class="uk-card uk-card-body uk-card-default">
+							<div class="uk-slider" uk-scrollspy-class="" uk-slider="autoplay:1;">
+								<div class="uk-position-relative">
+									<div class="uk-slider-container">
+										<ul class="uk-slider-items uk-child-width-1-1">
+											<li>
+												<div class="uk-panel uk-width-1-1">
+													<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle uk-grid" uk-grid="">
+														<div class="uk-width-auto uk-first-column"><img alt="" class="uk-border-circle" src="./assets/img/client-testimonial.jpg" width="60"></div>
+														<div class="uk-width-expand uk-padding-small">
+															<h3 class="bdt-title uk-h4 uk-margin-remove-bottom">Rodney Artichoke</h3>
+															<div class="bdt-title-meta uk-text-meta uk-margin-remove-bottom">
+																UI/UX designer
+															</div>
+														</div>
+													</div>
+													<div class="uk-margin-small-top">
+														<div class="bdt-content uk-text-muted">
+															Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse a qui ipsum deleniti aliquid praesentium ullam repudiandae cupiditate hic, natus perspiciatis illo corporis repellat facere, vitae nostrum voluptas error earum numquam temporibus iure, quaerat odit!
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="uk-panel uk-width-1-1">
+													<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle uk-grid" uk-grid="">
+														<div class="uk-width-auto uk-first-column"><img alt="" class="uk-border-circle" src="./assets/img/client-testimonial.jpg" width="60"></div>
+														<div class="uk-width-expand uk-padding-small">
+															<h3 class="bdt-title uk-h4 uk-margin-remove-bottom">Rodney Artichoke</h3>
+															<div class="bdt-title-meta uk-text-meta uk-margin-remove-bottom">
+																UI/UX designer
+															</div>
+														</div>
+													</div>
+													<div class="uk-margin-small-top">
+														<div class="bdt-content uk-text-muted">
+															Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laboriosam dolor nobis modi maxime cumque autem expedita. Vitae harum vel dolores, ducimus at laudantium labore fugiat odio et corporis asperiores quidem! Veniam ad maxime ducimus!
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="uk-panel uk-width-1-1">
+													<div class="bdt-grid-expand uk-child-width-expand uk-flex uk-flex-middle uk-grid" uk-grid="">
+														<div class="uk-width-auto uk-first-column"><img alt="" class="uk-border-circle" src="./assets/img/client-testimonial.jpg" width="60"></div>
+														<div class="uk-width-expand uk-padding-small">
+															<h3 class="bdt-title uk-h4 uk-margin-remove-bottom">Rodney Artichoke</h3>
+															<div class="bdt-title-meta uk-text-meta uk-margin-remove-bottom">
+																UI/UX designer
+															</div>
+														</div>
+													</div>
+													<div class="uk-margin-small-top">
+														<div class="bdt-content uk-text-muted">
+															Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, similique nisi commodi doloremque, earum iusto, modi voluptate qui eos quibusdam in nihil impedit. Voluptate vero in molestias doloremque voluptatem officia a iure facilis dolor enim.
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<div class="bdt-slider-nav uk-margin-large-top uk-margin-remove-bottom uk-visible@s uk-slidenav-container">
+											<a href="#" uk-slidenav-previous="icon:chevron-left; ratio: 1.5" uk-slider-item="previous"></a> <a href="#" uk-slidenav-next="icon:chevron-right; ratio: 1.5" uk-slider-item="next"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div uk-scrollspy-class="uk-animation-slide-right-medium">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-tile-primary">
+								<a class="bdt-testimonial-img uk-tile uk-width-1-1 uk-tile-large uk-background-norepeat uk-background-cover uk-background-center-center" data-src="./assets/img/testimonial.jpg" href="#" uk-img=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- client testimonial section end  -->
+
+		<!-- brand logo section start  -->
+		<section class="uk-section uk-section-default uk-section-large" id="brand-logo" uk-scrollspy="target:li>img; cls:uk-animation-scale-down; delay:100">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-child-width-1-1" uk-grid="">
+					<div class="uk-panel uk-width-1-1 uk-first-column">
+						<h2 class="brand-logo-title uk-h3 uk-width-2xlarge@m uk-margin-auto uk-text-center">Using Convenient Methods</h2>
+					</div>
+				</div>
+				<div class="uk-margin-large">
+					<div class="uk-position-relative">
+						<div class="uk-visible-toggle uk-slider-container uk-text-left uk-margin uk-visible-toggle uk-slider" uk-slider="autoplay:1">
+							<ul class="uk-slider-items tm-grid-expand uk-child-width-1-4@m uk-child-width-1-5@l logos-grid uk-grid" style="transform: translate3d(-281.75px, 0px, 0px);" uk-grid="">
+								<li><img alt="" src="./assets/img/brand/paypal.svg"></li>
+								<li><img alt="" src="./assets/img/brand/visa.svg"></li>
+								<li><img alt="" src="./assets/img/brand/mastercard.svg"></li>
+								<li><img alt="" src="./assets/img/brand/amazan.com.svg"></li>
+								<li><img alt="" src="./assets/img/brand/MoneyGram..svg"></li>
+								<li><img alt="" src="./assets/img/brand/amazan.com.svg"></li>
+							</ul>
+							<div class="uk-margin-small">
+								<a class="uk-position-center-left-out uk-position-small uk-icon uk-slidenav-previous uk-slidenav" href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg data-svg="slidenav-previous" height="24px" viewbox="0 0 14 24" width="14px" xmlns="http://www.w3.org/2000/svg">
+								<polyline fill="none" points="12.775,1 1.225,12 12.775,23" stroke="#000" stroke-width="1.4"></polyline></svg></a> <a class="uk-position-center-right-out uk-position-small uk-icon uk-slidenav-next uk-slidenav" href="#" uk-slidenav-next="" uk-slider-item="next"><svg data-svg="slidenav-next" height="24px" viewbox="0 0 14 24" width="14px" xmlns="http://www.w3.org/2000/svg">
+								<polyline fill="none" points="1.225,23 12.775,12 1.225,1" stroke="#000" stroke-width="1.4"></polyline></svg></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- brand logo sectiion end  -->
+
+		<!-- footer section top  start-->
+		<section class="uk-section uk-section-default uk-section-medium" id="footer-top" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-container-medium">
+				<div class="uk-tile uk-tile-primary uk-tile-medium">
+					<div class="uk-container uk-container-medium">
+						<div class="bdt-grid-expnad uk-text-left@s uk-text-center uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-large uk-grid" uk-grid="">
+							<div uk-scrollspy-class="">
+								<div class="uk-margin">
+									<div class="bdt-footer-logo">
+										GARDEN
+									</div>
+								</div>
+								<div class="bdt-footer-logo-content uk-panel uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam provident impedit ab!
+								</div>
+							</div>
+							<div uk-scrollspy-class="">
+								<h3 class="bdt-title uk-h3 uk-text-capitalize">About Us</h3>
+								<ul class="uk-list uk-margin-medium">
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Support Center</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Customer Support</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">About Us</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Copyright</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Popular Campaign</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div uk-scrollspy-class="">
+								<h3 class="bdt-title uk-h3 uk-text-capitalize">Contact Us</h3>
+								<ul class="uk-list uk-margin-medium">
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Return Policy</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Privacy Policy</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Terms &amp; Conditions</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Site Map</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Store Hours</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div uk-scrollspy-class="">
+								<h3 class="bdt-title uk-h3 uk-text-capitalize">Follow Us</h3>
+								<ul class="uk-list uk-margin-medium">
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Faceboook</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Twitter</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Youtube</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Website</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- footer section to end  -->
+
+
+		<!--global footer start  -->
+		<footer class="uk-section uk-section-large uk-section-muted" uk-scrollspy="target:div > span; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-cotnainer-large">
+				<div class="tm-grid-expand uk-grid-row-small uk-grid-margin-small uk-child-width-1-1" uk-grid="">
+					<div class="uk-width-1-1@m">
+						<div class="uk-panel uk-text-center">
+							<span>copyright &copy;2020 - All Rights Reserved by. powered by <a class="uk-text-uppercase" href="#">Keyfay</a> limited</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- global footer end  -->
+	</div>
+
+
+	<!-- video-play-button modal start-->
+	<div class="uk-flex-top uk-modal" id="video-play-button" uk-modal="">
+		<div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+			<button class="uk-modal-close-outside uk-icon uk-close" type="button" uk-close=""></button> <iframe allow="autoplay; fullscreen" allowfullscreen frameborder="0" height="360" src="https://player.vimeo.com/video/34659601?title=0&byline=0&portrait=0" uk-video="" width="640"></iframe>
+		</div>
+	</div>
+	<!-- video play button modal end  -->
+
+	<!-- global modal mobile menu start  -->
+	<div class="uk-modal-full uk-modal" id="mobile-menu" uk-modal="">
+		<div class="uk-modal-dialog uk-modal-body uk-flex uk-text-center" uk-height-viewport="">
+			<button class="uk-modal-close-full uk-icon uk-close" type="button" uk-close=""></button>
+			<div class="uk-margin-auto-vertical uk-width-1-1">
+				<div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
+					<div>
+						<div class="uk-panel uk-width-1-1@m">
+							<ul class="uk-nav uk-nav-primary uk-nav-center">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="about.html">About</a>
+								</li>
+								<li>
+									<a href="appointment.html">Appoinment</a>
+								</li>
+								<li>
+									<a href="blog.html">Blog</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- global modal mobile menu end  -->
+
+
+	<!-- ===============================
+		Essential Script Loading Start
+	=============================== -->
+	<script src="assets/js/jquery-1.12.4.min.js">
+	</script>
+	<script src="assets/js/uikit.min.js">
+	</script>
+	<script src="assets/js/uikit-icons.min.js">
+	</script>
+	<script src="assets/js/waypoints.min.js">
+	</script>
+	<script src="assets/js/jquery.counterup.min.js">
+	</script>
+	<script src="assets/js/script.js">
+	</script>
+
+	<!-- ===============================
+		Essential Script Loading End
+	=============================== -->
+</body>
 </html>

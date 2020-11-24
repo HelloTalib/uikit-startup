@@ -7,20 +7,21 @@
 //   font-family: $base-heading-font-family;
 //   font-weight: 600;
 // }
-//   .uk-button-default {
-//     font-size: 28px;
-//     line-height: 51px;
-//     letter-spacing: 0.75px;
-//     padding: 0px 25px;
-//     font-weight: 600;
-//     font-family: $global-font-family;
-//     border: 2px solid #fff;
-//     &:hover {
-//       background-color: #fff !important;
-//       color: #000 !important;
-//       border: 2px solid #fff;
-//     }
-//   }
+  .uk-button-default {
+    // font-size: 28px;
+    // line-height: 51px;
+    letter-spacing: 0.75px;
+    padding: 0px 25px;
+    border-radius: 500px;
+    font-weight: 600;
+    font-family: $global-font-family;
+    // border: 2px solid #fff;
+    &:hover {
+    //   background-color: #fff !important;
+    //   color: #000 !important;
+    //   border: 2px solid #fff;
+    }
+  }
 // .uk-button-primary {
 //   text-transform: capitalize;
 //   border-radius: 500px;

@@ -1,11 +1,11 @@
 // ===========================
 //GLOBAL SETTINGS
 // ===========================
-// @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
-// $global-font-family: "Work Sans", sans-serif;
-// $global-font-size: 16px;
-// $base-body-font-weight: 400;
-// $global-line-height: 1.5;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800;900&display=swap');
+$global-font-family: "Montserrat", sans-serif;
+$global-font-size: 16px;
+$base-body-font-weight: 400;
+$global-line-height: 1.5;
 
 // ===========================
 //COLOR & BACKGROUND
@@ -13,7 +13,7 @@
 // $global-color: #4a4a4a;
 // $global-background: #fcfcfc;
 // $global-primary-color: #fddf00;
-// $global-primary-background: #ec2178;
+$global-primary-background: #38CABD;
 // $global-secondary-background: #4da4b0;
 // $icon-button-background:red;
 // $global-border-width: 200px;
@@ -22,9 +22,9 @@
 // ===========================
 //LINK
 // ===========================
-// $global-link-color: $global-primary-background;
+$global-link-color: #FDAF69;
 // $base-link-hover-color: $global-secondary-background;
-// $base-link-hover-text-decoration: none;
+$base-link-hover-text-decoration: none;
 
 // ===========================
 //BORDER

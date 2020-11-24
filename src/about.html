@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Garden</title>
+	<link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="bdt-page">
+		<!-- desktop header start -->
+		<div class="bdt-header bdt-header-transparent bdt-header-overlay uk-visible@m" uk-header="">
+			<div class="uk-light" uk-sticky="cls-inactive: uk-light; cls-active: uk-background-default uk-box-shadow-medium uk-dark; top: 100vh; animation: uk-animation-slide-top">
+				<div class="uk-navbar-container uk-navbar-transparent">
+					<div class="uk-container uk-container-medium">
+						<nav uk-navbar="">
+							<div class="uk-navbar-left">
+								<a class="uk-navbar-item uk-logo" href="index.html"><img alt="logo" src="./assets/img/keyfai.svg"></a>
+							</div>
+							<div class="uk-navbar-center">
+								<ul class="uk-navbar-nav">
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+									<li class="uk-active">
+										<a href="about.html">About</a>
+									</li>
+									<li>
+										<a href="supports.html">Supports</a>
+									</li>
+									<li>
+										<a href="contact.html">Contact</a>
+									</li>
+								</ul>
+							</div>
+							<div class="uk-navbar-right">
+								<div class="uk-navbar-item">
+									<div>
+										<a class="uk-button uk-button-default" href="#">sign up</a>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="uk-sticky-placeholder" hidden="" style="height: 131px; margin: 0px;"></div>
+		</div>
+		<!-- desktop header end  -->
+
+		<!-- mobile  header start  -->
+		<div class="bdt-header-mobile uk-hidden@m bdt-header-transparent bdt-header-overlay">
+			<div>
+				<nav class="uk-navbar-container uk-navbar" uk-navbar="">
+					<div class="uk-navbar-left">
+						<div class="uk-navbar-item uk-logo"><img alt="logo" src="./assets/img/keyfai.svg"></div>
+					</div>
+					<div class="uk-navbar-right">
+						<a class="uk-navbar-toggle" href="#mobile-menu" uk-toggle=""><span class="uk-icon uk-navbar-toggle-icon" uk-navbar-toggle-icon=""></span></a>
+					</div>
+				</nav>
+			</div>
+			<div class="uk-sticky-placeholder" hidden="" style="height: 81px; margin: 0px;"></div>
+		</div>
+		<!-- mobile  header end  -->
+
+		<!-- page title start  -->
+		<section class="uk-section uk-section-large uk-background-norepeat uk-background-norepeat uk-background-cover" data-src="./assets/img/about-us-bg.jpg" id="page-title" uk-img="" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-scale-up; delay:false;">
+			<div class="bdt-grid-expand uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
+				<div class="uk-first-column">
+					<div class="uk-panel uk-width-1-1">
+						<div class="bdt-title-main uk-heading-small uk-margin-auto uk-text-uppercase uk-text-center uk-width-2xlarge@m uk-margin-remove-first-child" uk-scrollspy-class="">
+							about us
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- page title end  -->
+
+		<!-- featured video section start  -->
+		<section class="uk-section uk-section-default uk-section-large" id="featured-video" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:false;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-grid-collapse uk-child-width-1-2@m uk-margin-small uk-flex uk-flex-bottom" uk-grid="">
+					<div uk-scrollspy-class="">
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-tile-primary">
+								<a class="bdt-featured-video-img uk-tile uk-width-1-1 uk-tile-large uk-background-norepeat uk-background-cover uk-background-center-center" data-src="./assets/img/video-section.jpg" href="#video-play-button" uk-img="" uk-toggle=""></a>
+							</div>
+						</div>
+					</div>
+					<div uk-scrollspy-class="uk-animation-slide-right-medium">
+						<div class="uk-card uk-card-body uk-card-default">
+							<h3 class="bdt-heading-title-before uk-h4 uk-margin-top uk-margin-remove-bottom uk-text-primary">Why Theme</h3>
+							<h3 class="bdt-heading-title uk-h3 uk-margin-top uk-margin-remove-bottom"><a class="uk-link-heading" href="#">Let Your Dreams Take a Flight</a></h3>
+							<div class="bdt-content-meta uk-text-meta uk-margin-top uk-margin-remove-bottom">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolore fuga ipsam necessitatibus aut consequatur dolorem. Quam, dignissimos placeat assumenda inventore illo accusantium in voluptates soluta officiis, ipsum veniam voluptate!
+							</div>
+							<div class="uk-margin-large-top">
+								<a class="bdt-featured-button uk-button uk-button-primary" href="#">View More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- featured vidoe section end  -->
+
+		<!--product card section start -->
+		<section class="uk-section uk-section-default uk-section-large" id="product-cart" uk-scrollspy="target:div > .uk-card , [uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-child-width-1-1" uk-grid="">
+					<div class="uk-panel uk-width-1-1">
+						<div class="bdt-heading-title uk-heading-small uk-width-2xlarge@m uk-margin-auto uk-text-center" uk-scrollspy-class="">
+							Our Popular Product
+						</div>
+						<div class="uk-width-2xlarge@m uk-margin-auto uk-text-center" uk-scrollspy-class="">
+							<div class="bdt-heading-content uk-margin-top uk-margin-remove-bottom">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi praesentium repudiandae iste nostrum odit omnis ex possimus delectus dicta.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-margin-large-top">
+					<div class="bdt-grid-expand uk-child-width-1-3@m uk-grid-match" uk-grid="">
+						<div>
+							<div class="uk-card uk-card-default uk-card-hover">
+								<div class="uk-card-media-top"><img width="100%" alt="" src="assets/img/product-image/product-01.jpg"></div>
+								<div class="uk-card-body uk-panel uk-text-center margin-remove-first-child">
+									<h3 class="uk-margin-top uk-margin-remove-bottom"><a class="bdt-title uk-link-heading" href="#">Dummy Product Name</a></h3>
+									<div class="bdt-price uk-margin-top uk-margin-remove-boottom">
+										$75.99
+									</div>
+									<div class="uk-margin">
+										<a class="bdt-cart uk-button uk-button-primary" href="#">add to cart</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="uk-card uk-card-default uk-card-hover">
+								<div class="uk-card-media-top"><img width="100%" alt="" src="assets/img/product-image/product-02.jpg"></div>
+								<div class="uk-card-body uk-panel uk-text-center margin-remove-first-child">
+									<h3 class="uk-margin-top uk-margin-remove-bottom"><a class="bdt-title uk-link-heading" href="#">Dummy Product Name</a></h3>
+									<div class="bdt-price uk-margin-top uk-margin-remove-boottom">
+										$75.99
+									</div>
+									<div class="uk-margin">
+										<a class="bdt-cart uk-button uk-button-primary" href="#">add to cart</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="uk-card uk-card-default uk-card-hover">
+								<div class="uk-card-media-top"><img width="100%" alt="" src="assets/img/product-image/product-03.jpg"></div>
+								<div class="uk-card-body uk-panel uk-text-center margin-remove-first-child">
+									<h3 class="uk-margin-top uk-margin-remove-bottom"><a class="bdt-title uk-link-heading" href="#">Dummy Product Name</a></h3>
+									<div class="bdt-price uk-margin-top uk-margin-remove-boottom">
+										$75.99
+									</div>
+									<div class="uk-margin">
+										<a class="bdt-cart uk-button uk-button-primary" href="#">add to cart</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- product card section end  -->
+
+
+		<!-- about card section start  -->
+		<section class="uk-section uk-section-default uk-card-hover uk-section-large" id="about-card" uk-scrollspy="target:div > .uk-card , [uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-child-width-1-3@m uk-grid-match" uk-grid="">
+					<div>
+						<div class="uk-card uk-card-body uk-card-default uk-card-hover uk-text-center">
+							<div class="uk-panel">
+								<img alt="" src="assets/img/autumn-tree-leaves.png">
+								<div class="uk-divider-small"></div>
+								<h3 class="bdt-card-title uk-card-title">Choose Your Tree</h3>
+								<div class="bdt-card-content uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="uk-card uk-card-body uk-card-default uk-card-hover uk-text-center">
+							<div class="uk-panel">
+								<img alt="" src="assets/img/trees-primary.png">
+								<div class="bdt-featured-divider uk-divider-small"></div>
+								<h3 class="bdt-card-title uk-card-title">Choose Your Tree</h3>
+								<div class="bdt-card-content uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="uk-card uk-card-body uk-card-default uk-card-hover uk-text-center">
+							<div class="uk-panel">
+								<img alt="" src="assets/img/autumn-tree-leaves.png">
+								<div class="uk-divider-small"></div>
+								<h3 class="bdt-card-title uk-card-title">Choose Your Tree</h3>
+								<div class="bdt-card-content uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- about card section end  -->
+
+
+		<!-- subscribe form start-->
+		<section class="uk-section uk-section-default uk-section-large" id="subscribe-form" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-container-medium">
+				<div class="bdt-grid-expand uk-child-width-1-1" uk-grid="">
+					<div class="uk-panel uk-width-1-1">
+						<div class="bdt-heading-title uk-heading-small uk-width-2xlarge@m uk-margin-auto uk-text-center" uk-scrollspy-class="">
+							Didn't find an answer?
+						</div>
+						<div class="uk-width-2xlarge@m uk-margin-auto uk-text-center">
+							<div class="bdt-heading-content uk-margin-top uk-margin-remove-bottom" uk-scrollspy-class="">
+								We'll inform you about new theme updates and news, but no spam, we promise.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bdt-grid-expand uk-child-width-1-1" uk-grid="">
+					<div>
+						<div class="uk-panel uk-width-1-1">
+							<div class="uk-width-2xlarge@m uk-margin-auto uk-text-center">
+								<form action="#" class="uk-visible@s uk-form uk-panel" uk-scrollspy-class="">
+									<div class="uk-grid-small uk-child-width-expand uk-grid uk-grid-stack" uk-grid="">
+										<div class="uk-width-expand">
+											<input class="uk-input bdt-form-large" placeholder="Enter Your Email" type="email">
+										</div>
+										<div class="bdt-form-button uk-width-auto uk-grid-margin">
+											<a class="uk-button uk-button-primary uk-button-large uk-text-uppercase" href="#">subscribe</a>
+										</div>
+									</div>
+								</form>
+								<form action="#" class="uk-hidden@s uk-form uk-panel">
+									<div class="uk-grid-small uk-child-width-1-1" uk-grid="">
+										<div>
+											<input class="uk-input uk-form-large" placeholder="Enter Your Email" type="email">
+										</div>
+										<div>
+											<a class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-text-uppercase" href="#">subscribe</a>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- subscribe form end  -->
+
+		<!-- footer top section start -->
+		<section class="uk-section uk-section-default uk-section-medium" id="footer-top" uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-container-medium">
+				<div class="uk-tile uk-tile-primary uk-tile-medium">
+					<div class="uk-container uk-container-medium">
+						<div class="bdt-grid-expnad uk-text-left@s uk-text-center uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-large uk-grid" uk-grid="">
+							<div uk-scrollspy-class="">
+								<div class="uk-margin">
+									<div class="bdt-footer-logo">
+										GARDEN
+									</div>
+								</div>
+								<div class="bdt-footer-logo-content uk-panel uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam provident impedit ab!
+								</div>
+							</div>
+							<div uk-scrollspy-class="">
+								<h3 class="bdt-title uk-h3 uk-text-capitalize">About Us</h3>
+								<ul class="uk-list uk-margin-medium">
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Support Center</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Customer Support</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">About Us</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Copyright</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Popular Campaign</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div uk-scrollspy-class="">
+								<h3 class="bdt-title uk-h3 uk-text-capitalize">Contact Us</h3>
+								<ul class="uk-list uk-margin-medium">
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Return Policy</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Privacy Policy</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Terms &amp; Conditions</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Site Map</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Store Hours</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div uk-scrollspy-class="">
+								<h3 class="bdt-title uk-h3 uk-text-capitalize">Follow Us</h3>
+								<ul class="uk-list uk-margin-medium">
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Faceboook</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Twitter</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Youtube</a>
+										</div>
+									</li>
+									<li>
+										<div class="uk-panel">
+											<a class="uk-link-text uk-margin-remove-first-child" href="#">Website</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- footer top section end  -->
+
+
+		<!-- footer start  -->
+		<footer class="uk-section uk-section-large uk-section-muted" uk-scrollspy="target:div > span; cls:uk-animation-slide-bottom-medium; delay:200;">
+			<div class="uk-container uk-cotnainer-large">
+				<div class="tm-grid-expand uk-grid-row-small uk-grid-margin-small uk-child-width-1-1" uk-grid="">
+					<div class="uk-width-1-1@m">
+						<div class="uk-panel uk-text-center">
+							<span>copyright &copy;2020 - All Rights Reserved by. powered by <a class="uk-text-uppercase" href="#">Keyfay</a> limited</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- footer end  -->
+	</div>
+
+
+	<!--modal video play button start -->
+	<div class="uk-flex-top uk-modal" id="video-play-button" uk-modal="">
+		<div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+			<button class="uk-modal-close-outside uk-icon uk-close" type="button" uk-close=""></button> <iframe allow="autoplay; fullscreen" allowfullscreen frameborder="0" height="360" src="https://player.vimeo.com/video/34659601?title=0&byline=0&portrait=0" uk-video="" width="640"></iframe>
+		</div>
+	</div>
+	<!-- modal video play button end  -->
+
+	<!-- modal mobile menu start  -->
+	<div class="uk-modal-full uk-modal" id="mobile-menu" uk-modal="">
+		<div class="uk-modal-dialog uk-modal-body uk-flex uk-text-center" uk-height-viewport="">
+			<button class="uk-modal-close-full uk-icon uk-close" type="button" uk-close=""></button>
+			<div class="uk-margin-auto-vertical uk-width-1-1">
+				<div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
+					<div>
+						<div class="uk-panel uk-width-1-1@m">
+							<ul class="uk-nav uk-nav-primary uk-nav-center">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="about.html">About</a>
+								</li>
+								<li>
+									<a href="appointment.html">Appoinment</a>
+								</li>
+								<li>
+									<a href="blog.html">Blog</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal mobile menu end  -->
+
+
+	<!-- ===============================
+	Essential Script loading start
+	=============================== -->
+	<script src="assets/js/jquery-1.12.4.min.js">
+	</script>
+	<script src="assets/js/uikit.min.js">
+	</script>
+	<script src="assets/js/uikit-icons.min.js">
+	</script>
+	<script src="assets/js/waypoints.min.js">
+	</script>
+	<script src="assets/js/jquery.counterup.min.js">
+	</script>
+	<script src="assets/js/script.js">
+	</script>
+	<!-- ===============================
+	Essential Script loading end
+	=============================== -->
+</body>
+</html>

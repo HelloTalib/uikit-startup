@@ -1,0 +1,131 @@
+// ==================
+// page title style start
+// ==================
+
+#page-title {
+  .bdt-title-main {
+    margin-top: 200px;
+    color: #fff;
+    font-weight: 700;
+    @media screen and (max-width: $breakpoint-medium) {
+      margin-top: 50px;
+    }
+  }
+}
+/**
+* page title style end*
+*/
+
+/**
+* subscribe form style start*
+*/
+#subscribe-form {
+  .bdt-heading {
+    &-title {
+      font-size: 50px;
+      color: #003447;
+      font-weight: 600;
+      text-transform: capitalize;
+      @media screen and (max-width: $breakpoint-medium) {
+        font-size: 35px;
+      }
+    }
+    &-content {
+      font-size: 18px;
+      //   color: #003447;
+      font-weight: 600;
+    }
+  }
+  .bdt-form-large {
+    height: 120px;
+    padding: 0 45px;
+    font-size: 18px;
+    border-radius: 100px;
+    color: #003447;
+  }
+  .bdt-form-button {
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    .uk-button {
+      padding: 15px 50px;
+      border-radius: 100px;
+    }
+  }
+}
+/**
+* subscribe form style end*
+*/
+
+/**
+* product cart style start*
+*/
+#product-cart {
+  .bdt {
+    &-heading {
+      &-title {
+        font-size: 50px;
+        font-weight: 600;
+        color: #003447;
+        @media screen and (max-width: $breakpoint-medium) {
+          font-size: 35px;
+        }
+      }
+      &-content {
+        // color: green;
+        line-height: 30px;
+      }
+    }
+    &-title {
+      color: #003447;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    &-price {
+      font-size: 18px;
+      margin-top: 5px !important;
+      font-weight: 600;
+    }
+    &-cart {
+      border-radius: 500px;
+    }
+  }
+}
+/**
+* product cart style end*
+*/
+
+/**
+* about cart style start*
+*/
+#about-card {
+  .bdt-card {
+    &-title {
+      color: #003447;
+      font-weight: 600;
+      font-size: 22px;
+    }
+    // &-content {
+    //   // color: green;
+    // }
+  }
+  .bdt-featured-divider.uk-divider-small:after {
+    content: "";
+    display: inline-block;
+    width: 135px;
+    max-width: 100%;
+    border-top: 3px solid $global-primary-background;
+    vertical-align: top;
+  }
+  .uk-divider-small:after {
+    content: "";
+    display: inline-block;
+    width: 135px;
+    max-width: 100%;
+    vertical-align: top;
+    border-top: 3px solid #e5e5e5;
+  }
+}
+/**
+* about cart style end*
+*/

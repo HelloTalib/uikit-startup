@@ -1,18 +1,19 @@
 @charset "UTF-8";
 /*========================================
- Template Name: Startup-Pack
+ Template Name: Garden
  Template URI:
- Template Type: 
+ Template Type:
  Author: TALIB
  Author URI:
  Version: 1.0.0
- Description: Startup-Pack uikit template
+ Description: Garden uikit template
  Brand Color:   #fe6347, #48455a
  Icon:          Flat Icon, Font Awesome
  Text font:     Poppins
  Tags:
 /* ========================
 **/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800;900&display=swap");
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -24,9 +25,9 @@
  */
 html {
   /* 1 */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.5;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -57,7 +58,7 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: #FDAF69;
   text-decoration: none;
   cursor: pointer;
 }
@@ -67,7 +68,7 @@ a:hover,
 .uk-link-toggle:hover .uk-link,
 .uk-link-toggle:focus .uk-link {
   color: #0f6ecd;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Text-level semantics
@@ -277,7 +278,7 @@ h6, .uk-h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   color: #333;
   text-transform: none;
@@ -563,7 +564,7 @@ a.uk-link-heading:hover,
 .uk-link-heading a:hover,
 .uk-link-toggle:hover .uk-link-heading,
 .uk-link-toggle:focus .uk-link-heading {
-  color: #1e87f0;
+  color: #38CABD;
   text-decoration: none;
 }
 
@@ -907,7 +908,7 @@ a.uk-link-reset,
 }
 
 .uk-list-primary > ::before {
-  color: #1e87f0 !important;
+  color: #38CABD !important;
 }
 
 .uk-list-secondary > ::before {
@@ -1715,7 +1716,7 @@ button.uk-icon:not(:disabled) {
   outline: none;
   background-color: #fff;
   color: #666;
-  border-color: #1e87f0;
+  border-color: #38CABD;
 }
 
 /* Disabled */
@@ -1950,7 +1951,7 @@ select.uk-form-width-xsmall {
 .uk-radio:focus,
 .uk-checkbox:focus {
   outline: none;
-  border-color: #1e87f0;
+  border-color: #38CABD;
 }
 
 /*
@@ -1959,7 +1960,7 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #1e87f0;
+  background-color: #38CABD;
   border-color: transparent;
 }
 
@@ -1967,7 +1968,7 @@ select.uk-form-width-xsmall {
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #0e6ecd;
+  background-color: #2ca399;
 }
 
 /*
@@ -2283,7 +2284,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #1e87f0;
+  background-color: #38CABD;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2291,14 +2292,14 @@ select.uk-form-width-xsmall {
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #0f7ae5;
+  background-color: #31b8ac;
   color: #fff;
 }
 
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #0e6ecd;
+  background-color: #2ca399;
   color: #fff;
 }
 
@@ -2433,7 +2434,7 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   background: none;
   /* 2 */
-  color: #1e87f0;
+  color: #FDAF69;
 }
 
 /* Hover + Focus */
@@ -2552,17 +2553,17 @@ select.uk-form-width-xsmall {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #1e87f0;
+  background-color: #38CABD;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
 
 .uk-progress::-moz-progress-bar {
-  background-color: #1e87f0;
+  background-color: #38CABD;
 }
 
 .uk-progress::-ms-fill {
-  background-color: #1e87f0;
+  background-color: #38CABD;
   -ms-transition: width 0.6s ease;
   transition: width 0.6s ease;
   /* 1 */
@@ -2668,7 +2669,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #1e87f0;
+  background: #38CABD;
 }
 
 /*
@@ -2959,7 +2960,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background: #1e87f0;
+  background: #38CABD;
 }
 
 /*
@@ -3086,7 +3087,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #1e87f0;
+  background: #38CABD;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -3096,7 +3097,7 @@ select.uk-form-width-xsmall {
 }
 
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #1e87f0;
+  background-color: #38CABD;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 
@@ -3435,8 +3436,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #d8eafc;
-  color: #1e87f0;
+  background: #d8f5f2;
+  color: #38CABD;
 }
 
 /*
@@ -3522,7 +3523,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #1e87f0;
+  background: #38CABD;
   color: #fff;
   font-size: 0.875rem;
   /* 2 */
@@ -3547,7 +3548,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #1e87f0;
+  background: #38CABD;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -5005,7 +5006,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #1e87f0;
+  color: #38CABD;
 }
 
 /*
@@ -5961,7 +5962,7 @@ ul.uk-nav-sub {
   padding: 0 15px;
   /* 3 */
   font-size: 0.875rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   /* 4 */
   text-decoration: none;
 }
@@ -6363,7 +6364,7 @@ ul.uk-nav-sub {
 
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #1e87f0;
+  background-color: #38CABD;
   color: #fff;
 }
 
@@ -6568,7 +6569,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-tab > .uk-active > a {
   color: #333;
-  border-color: #1e87f0;
+  border-color: #38CABD;
 }
 
 /* Disabled */
@@ -8434,7 +8435,7 @@ ul.uk-nav-sub {
 }
 
 .uk-text-primary {
-  color: #1e87f0 !important;
+  color: #38CABD !important;
 }
 
 .uk-text-secondary {
@@ -8467,12 +8468,12 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #1e87f0 !important;
+  color: #38CABD !important;
 }
 
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #1e87f0;
+    background-color: #38CABD;
     color: transparent !important;
   }
 }
@@ -8841,7 +8842,7 @@ iframe.uk-cover {
 }
 
 .uk-background-primary {
-  background-color: #1e87f0;
+  background-color: #38CABD;
 }
 
 .uk-background-secondary {
@@ -9475,7 +9476,7 @@ iframe.uk-cover {
  */
 .uk-logo {
   font-size: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   color: #666;
   /* 1 */
   text-decoration: none;
@@ -12493,4 +12494,523 @@ body {
   .bdt-grid-expand > .uk-width-expand\@xl {
     flex-grow: 999;
   }
+}
+
+.uk-button-default {
+  letter-spacing: 0.75px;
+  padding: 0px 25px;
+  border-radius: 500px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.uk-input {
+  background-color: #fafafa;
+  font-size: 15px;
+  line-height: 22.5px;
+  padding: 0px 50px 0px 12px;
+  font-weight: 400;
+}
+
+.uk-input::-moz-placeholder {
+  color: #003447;
+}
+
+.uk-input:-ms-input-placeholder {
+  color: #003447;
+}
+
+.uk-input::placeholder {
+  color: #003447;
+}
+
+.uk-navbar {
+  height: 100px;
+}
+
+.bdt-header {
+  padding: 40px 0px;
+}
+
+.uk-navbar-nav > li {
+  position: relative;
+}
+
+.uk-navbar-nav > li > a {
+  font-size: 18px;
+  position: relative;
+  text-transform: capitalize;
+  padding: 0 24px;
+  transition: all 0.1 ease-in-out;
+}
+
+.uk-navbar-nav > li:hover a::before {
+  visibility: visible;
+}
+
+.uk-navbar-nav.uk-active {
+  height: 2px;
+}
+
+.uk-navbar-dropbar {
+  background-image: linear-gradient(to top, #ddd, transparent 1px);
+}
+
+footer .uk-text-muted {
+  font-size: 14px;
+  line-height: 20;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #525252;
+}
+
+@media screen and (min-width: 960px) {
+  #footer-top {
+    margin-bottom: -150px;
+  }
+}
+
+#footer-top .uk-tile-primary {
+  border-radius: 10px;
+}
+
+#footer-top .bdt-footer-logo {
+  font-size: 30px;
+  color: #fff;
+}
+
+#footer-top .bdt-footer-logo-content {
+  color: #fff;
+}
+
+#footer-top .bdt-title {
+  font-size: 22px;
+}
+
+#footer-top .uk-link-text {
+  font-size: 14px;
+}
+
+#background {
+  background-image: url("../img/bg-image.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+#slider .uk-slideshow-items {
+  height: 100vh;
+}
+
+#slider .bdt-slider-title {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 70px;
+}
+
+#slider .bdt-slider-title-before {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 960px) {
+  #slider .bdt-slider-title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  #slider .bdt-slider-title-before {
+    font-size: 14px;
+  }
+}
+
+#slider .bdt-slider-button {
+  padding: 15px 66px;
+  border-radius: 45px;
+  color: #38CABD;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 960px) {
+  #slider .bdt-slider-button {
+    padding: 0px 26px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #slider .bdt-slider-content {
+    display: none;
+  }
+}
+
+#slider .uk-slidenav {
+  color: #eee;
+  border: 1px solid #f4f4f4;
+  border-radius: 500px;
+  padding: 14px 19px;
+  transition: all 0.2s ease-in;
+}
+
+#slider .uk-slidenav:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+#slider .uk-slideshow-items {
+  height: 1000px;
+  min-height: 675px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#services-card {
+  margin-top: -5%;
+}
+
+#services-card .bdt-section-heading {
+  font-weight: 600;
+  color: #003447;
+}
+
+#services-card .bdt-card-wrapper {
+  position: relative;
+  border-radius: 21px;
+}
+
+#services-card .bdt-card-1 {
+  background-color: #8860e5;
+}
+
+#services-card .bdt-card-2 {
+  background-color: #ffc700;
+}
+
+#services-card .bdt-card-3 {
+  background-color: #fd682e;
+}
+
+#services-card .bdt-card-4 {
+  background-color: #0060f3;
+}
+
+#services-card .bdt-card-title {
+  color: #8860e5;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#services-card .card-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: #fff;
+  transform: translate(-10px, -50%);
+}
+
+#services-card .card-icon:hover a {
+  color: #eee;
+}
+
+#services-card .bdt-card {
+  border-radius: 20px;
+  width: 90%;
+}
+
+#counter .bdt-counter {
+  font-weight: 600;
+}
+
+#counter .bdt-counter-title {
+  color: #003447;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#counter .bdt-counter-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#counter .bdt-counter-heading-before {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  #counter .bdt-counter-heading {
+    font-size: 32px;
+  }
+  #counter .bdt-counter-heading-before {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+#featured-video .bdt-heading-title {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+#featured-video .bdt-heading-title-before {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  #featured-video .bdt-heading-title-before {
+    font-size: 18px;
+    line-height: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #featured-video .bdt-heading-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+#featured-video .bdt-featured-button {
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+#featured-video .bdt-featured-video-img {
+  height: 800px;
+}
+
+@media screen and (max-width: 960px) {
+  #featured-video .bdt-featured-video-img {
+    height: 300px;
+  }
+}
+
+#portfolio .bdt-heading-title {
+  line-height: 75px;
+  font-weight: 600;
+  color: #003447;
+  letter-spacing: 1.7px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  #portfolio .bdt-heading-title {
+    font-size: 34px;
+    line-height: 20px;
+  }
+}
+
+#portfolio .bdt-heading-content {
+  font-family: "Montserrat", sans-serif;
+}
+
+#portfolio .uk-subnav li {
+  margin: 10px 0px;
+}
+
+#portfolio .uk-subnav li a {
+  border: 2px solid #eee;
+  padding: 10px 30px;
+}
+
+#portfolio .bdt-hover-title {
+  font-size: 18px;
+}
+
+#portfolio .bdt-hover-tag {
+  font-size: 14px;
+}
+
+#client-testimonial .bdt-testimonial-img {
+  height: 800px;
+}
+
+@media screen and (max-width: 960px) {
+  #client-testimonial .bdt-testimonial-img {
+    height: 300px;
+  }
+}
+
+#client-testimonial .bdt-heading-title {
+  font-size: 45px;
+  color: #003447;
+  line-height: 50px;
+  font-weight: 600;
+  letter-spacing: -1.7px;
+}
+
+@media screen and (max-width: 960px) {
+  #client-testimonial .bdt-heading-title {
+    font-size: 34px;
+    line-height: 20px;
+  }
+}
+
+#client-testimonial .bdt-title {
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+
+#client-testimonial .bdt-content {
+  letter-spacing: -0.5px;
+  line-height: 20px;
+}
+
+#client-testimonial .uk-slidenav {
+  padding: 14px 17px;
+  color: #fff;
+  background: #38CABD;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color, box-shadow;
+}
+
+#client-testimonial .uk-slidenav:hover {
+  background: #43d7c9;
+  color: #eee;
+}
+
+#client-testimonial .uk-slidenav-previous {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#client-testimonial .uk-slidenav-next {
+  border-radius: 0px 10px 10px 0px;
+}
+
+#brand-logo .logos-grid img {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition: filter 0.25s;
+}
+
+#brand-logo .logos-grid img:hover {
+  filter: grayscale(0);
+}
+
+#brand-logo .brand-logo-title {
+  font-size: 38px;
+  line-height: 40px;
+  color: #003447;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  #brand-logo .brand-logo-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+#page-title .bdt-title-main {
+  margin-top: 200px;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+  #page-title .bdt-title-main {
+    margin-top: 50px;
+  }
+}
+
+#subscribe-form .bdt-heading-title {
+  font-size: 50px;
+  color: #003447;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 960px) {
+  #subscribe-form .bdt-heading-title {
+    font-size: 35px;
+  }
+}
+
+#subscribe-form .bdt-heading-content {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#subscribe-form .bdt-form-large {
+  height: 120px;
+  padding: 0 45px;
+  font-size: 18px;
+  border-radius: 100px;
+  color: #003447;
+}
+
+#subscribe-form .bdt-form-button {
+  position: absolute;
+  right: 3%;
+  top: 15%;
+}
+
+#subscribe-form .bdt-form-button .uk-button {
+  padding: 15px 50px;
+  border-radius: 100px;
+}
+
+#product-cart .bdt-heading-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #003447;
+}
+
+@media screen and (max-width: 960px) {
+  #product-cart .bdt-heading-title {
+    font-size: 35px;
+  }
+}
+
+#product-cart .bdt-heading-content {
+  line-height: 30px;
+}
+
+#product-cart .bdt-title {
+  color: #003447;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#product-cart .bdt-price {
+  font-size: 18px;
+  margin-top: 5px !important;
+  font-weight: 600;
+}
+
+#product-cart .bdt-cart {
+  border-radius: 500px;
+}
+
+#about-card .bdt-card-title {
+  color: #003447;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#about-card .bdt-featured-divider.uk-divider-small:after {
+  content: "";
+  display: inline-block;
+  width: 135px;
+  max-width: 100%;
+  border-top: 3px solid #38CABD;
+  vertical-align: top;
+}
+
+#about-card .uk-divider-small:after {
+  content: "";
+  display: inline-block;
+  width: 135px;
+  max-width: 100%;
+  vertical-align: top;
+  border-top: 3px solid #e5e5e5;
 }
